@@ -1,0 +1,15 @@
+# Local files and generated intermediates
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.bak
+*.log
+__pycache__/
+.venv/
+node_modules/
+.env
+.env.*
+source-files/
+work/
+private/
