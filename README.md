@@ -2,9 +2,9 @@
 
 **Jordan Swartz, MD, MA**
 
-A clinical informatics and AI system design study for longitudinal outpatient hypertension management. The proposed system combines a conversational agent with a deterministic care-state machine, clinical decision trees, a safety pipeline, and clinician review.
+A system design for an AI assistant that supports hypertension care between outpatient visits. The proposed workflow brings together patient conversations, home blood pressure readings, medication management, and follow-up, with explicit safety checks and clinician oversight.
 
-The project explores a practical question: how can an assistant support care between visits while making its decisions traceable and its limits explicit?
+This portfolio project explores the clinical and technical decisions behind that workflow: a care-state machine, clinical decision trees, FHIR integrations, retrieval with citations, model selection, and an audit trail for treatment recommendations. The repository includes the detailed architecture, system prompt, diagrams, and a 40-slide presentation.
 
 ## Start here
 
@@ -36,7 +36,7 @@ Word versions accompany the brief, workflow, research draft, and background summ
 
 ## Project status
 
-This is an architecture and specification portfolio project. It does not include a runnable clinical application, deployed integrations, or clinical validation results. Code blocks and tool schemas illustrate the proposed design.
+This is an architecture and specification portfolio project. It does not include a runnable clinical application, deployed integrations, or clinical validation results. Code blocks and tool schemas illustrate the proposed design. All patient records and clinical examples use mock data.
 
 The original design dates from February 2026. Model choices, costs, clinical thresholds, and proposed autonomy criteria reflect that design snapshot. Preparation for publication focused on anonymization and packaging; it did not revalidate the clinical logic or reconcile every difference among historical drafts. Percentages, safety ratings, and evaluation thresholds in the materials are design assumptions or targets, not measured performance.
 
